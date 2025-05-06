@@ -26,3 +26,7 @@ CMD ["/usr/bin/tail", "-f", "/dev/null"]
     # docker build -t my-ubuntu-image-ssh .
 
 #docker run -d --net=net-ubuntu --name ubt003 my-ubuntu-image-ssh
+#docker run -d -p 22:22 --net=net-ubuntu --name ubt003 my-ubuntu-image-ssh
+
+# entrar no container 
+    #docker exec -it "nome do container"
