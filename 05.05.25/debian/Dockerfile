@@ -9,6 +9,7 @@ RUN apt upgrade -y
 
 RUN apt install -y net-tools dnsutils iputils-ping
 
+CMD ["/usr/bin/tail", "-f", "/dev/null"]
 
 # criar imagem docker 
     # docker build -t my-image .
