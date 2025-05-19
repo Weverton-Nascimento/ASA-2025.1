@@ -1,0 +1,5 @@
+COMPOSIÇAO DE SERVIÇOS
+    servidores web e dns
+
+    COMANDO PARA CRIAÇAO DAS IMAGENS
+        docker compose up --build
