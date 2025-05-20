@@ -3,3 +3,7 @@ COMPOSIÇAO DE SERVIÇOS
 
     COMANDO PARA CRIAÇAO DAS IMAGENS
         docker compose up --build
+
+    COMANDO PARA VERIFICAR PROCESSOS RODANDO 
+        docker compose ps
+    
