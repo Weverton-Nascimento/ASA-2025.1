@@ -9,10 +9,11 @@ services:
     ports:
       - "53:53/udp"
 
-#  web:
-#    build: 
-#      context: ./web
-#      dockerfile: Dockerfile
-#    container_name: web
-#    ports:
-#      - "80:80/tcp"
+  web:
+    build: 
+      context: ./web
+      dockerfile: Dockerfile
+    container_name: web
+    ports:
+      - "80:80/tcp"
+      
