@@ -6,4 +6,6 @@ COMPOSIÇAO DE SERVIÇOS
 
     COMANDO PARA VERIFICAR PROCESSOS RODANDO 
         docker compose ps
+
+        docker exec -it 2c bash
     
