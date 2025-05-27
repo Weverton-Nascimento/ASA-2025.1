@@ -1,0 +1,6 @@
+CONFIGURAÇAO DE UM PROXY REVERSO 
+
+MAPEAMENTO DE PORTA PARA SUBIR O CONTAINER
+    docker compose 
+
+    docker logs -f proxy
