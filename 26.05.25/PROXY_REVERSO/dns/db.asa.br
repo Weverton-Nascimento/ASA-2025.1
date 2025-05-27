@@ -9,10 +9,11 @@ $TTL	604800
 			2419200		; Expire
 			 604800 )	; Negative Cache TTL
 ;
-@		IN	NS	ns.
-@		IN	A	10.25.3.92
-www		IN	A	10.25.3.92
+@		IN	NS		ns.
+@		IN	A		10.25.3.92
+www		IN	A		10.25.3.92
 portal	IN	CNAME	www
-webmail IN  A   10.25.3.200
+webmail IN  A   	10.25.3.200
 sales   IN  CNAME 	www
 teo		IN 	CNAME 	www
+alfredo IN 	CNAME 	www
